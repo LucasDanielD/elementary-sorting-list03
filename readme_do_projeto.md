@@ -39,6 +39,3 @@ ed2-advanced-sorting-list04-cpp/
 *   **Objetivo:** Segregar e reorganizar um conjunto de números inteiros de forma a que todos os números pares antecedam os ímpares. A partição par deve ficar ordenada de forma crescente, e a partição ímpar de forma decrescente.
 *   **Resolução:** Para atingir o objetivo com memória auxiliar nula $\mathcal{O}(1)$ e tempo linear $\mathcal{O}(N)$, utilizou-se o particionamento bidirecional convergente de **Hoare**. Dois ponteiros iniciam nas extremidades opostas do arranjo e movem-se em direção ao centro, trocando elementos que violam a regra de paridade. Finalizada essa separação, aplicou-se a ordenação padrão aos dois subgrupos resultantes.
 
----
-
-*“Simplicity is a great virtue, but it requires hard work to achieve it.”* — **C. A. R. Hoare**
